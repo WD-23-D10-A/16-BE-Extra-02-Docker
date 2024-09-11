@@ -20,6 +20,6 @@ Docker ist eine Plattform, die es ermöglicht, die Bereitstellung, Skalierung un
 
 1. Effizienz: Container sind im Vergleich zu traditionellen virtuellen Maschinen leichtgewichtig, da sie den Kernel des Host-Betriebssystems gemeinsam nutzen, was zu schnelleren Startzeiten und geringerem Overhead führt.
 
-Docker Grundlagen hier: [Grundlagen von Docker](./Grundlagen.md)
+Docker Grundlagen hier: [Grundlagen von Docker](./1-Grundlagen.md)
 
-Docker Syntax hier: [Docker Syntax](./Docker-Syntax.md)
+Docker Syntax hier: [Docker Syntax](./2-Docker-Syntax.md)
