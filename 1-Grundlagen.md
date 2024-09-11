@@ -32,19 +32,18 @@ Docker ist eine Plattform, die es Entwicklern ermöglicht, Anwendungen in Contai
     * Beispiel:
 
     ```yaml
-    # docker-compose.yml
-version: '3'
-services:
-  web:
-    image: my-web-app
-    ports:
-      - "80:80"
-  db:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: example
+    version: '3'
+    services:
+    web:
+        image: my-web-app
         ports:
-        - "3306:3306"
+        - "80:80"
+    db:
+        image: mysql:5.7
+        environment:
+        MYSQL_ROOT_PASSWORD: example
+            ports:
+            - "3306:3306"
     ```
 
 Ein Dockerfile beschreibt, wie ein einzelnes Docker-Image erstellt wird, während eine docker-compose.yml Datei verwendet wird, um mehrere Container zu konfigurieren und zu starten. Beide sind wichtige Bestandteile des Docker-Ökosystems und ermöglichen es Entwicklern, Anwendungen effizient zu verwalten und bereitzustellen.
